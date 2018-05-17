@@ -284,6 +284,11 @@
             <version>${spark2.hive.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
 
         <!-- test supports -->
         <dependency>

@@ -65,7 +65,7 @@ public class TypeCasting {
         if (obj instanceof Double)
             return (Double) obj;
         else if (obj instanceof Float)
-            return ((Float) obj).doubleValue();
+            return Double.valueOf(obj.toString());
         else if (obj instanceof BigDecimal)
             return ((BigDecimal) obj).doubleValue();
         else if (obj instanceof Long)
